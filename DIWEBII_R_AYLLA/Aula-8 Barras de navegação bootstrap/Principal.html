@@ -69,18 +69,45 @@
         <!-- div.container>div.carousel.slide[data-bs-ride"carousel"] -->
 
         <div class="carousel slide" data-bs-ride="carousel" id="ads">
+            <!-- div.carousel-indicators>button.active[data-bs-target="#ads" data-bs-slide-to="?"] -->
+
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+                <button class="active" data-bs-target="#ads" data-bs-slide-to="1"></button>
+                <button class="active" data-bs-target="#ads" data-bs-slide-to="2"></button>
+            </div>
+
+
             <div class="carousel-inner">
                 <!-- div.carousel-inner>div.carousel-item.active>img[src="https://picsum.photos/1280/420"] -->
 
-                <div class="carousel-item-active">
+                <div class="carousel-item-active" data-bs-interval="2000">
                     <img class="d-block w-100" src="https://picsum.photos/1280/420?random=1" alt="Fotos Ilustrativas">
+                    <div class="carousel-caption">
+                        <h5>Titulo 1 </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit velit minima dolores
+                            consectetur sapiente delectus vero vitae alias, sint repudiandae id unde ducimus repellendus
+                            odio quisquam molestias necessitatibus voluptates.</p>
+                    </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="1000">
                     <img class="d-block w-100" src="https://picsum.photos/1280/420?random=2" alt="Fotos Ilustrativas">
+                    <div class="carousel-caption">
+                        <h5>Titulo 1 </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit velit minima dolores
+                            consectetur sapiente delectus vero vitae alias, sint repudiandae id unde ducimus repellendus
+                            odio quisquam molestias necessitatibus voluptates.</p>
+                    </div>
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img class="d-block w-100" src="https://picsum.photos/1280/420?ramdom=3" alt="Fotos Ilustrativas">
+                    <div class="carousel-caption">
+                        <h5>Titulo 1 </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit velit minima dolores
+                            consectetur sapiente delectus vero vitae alias, sint repudiandae id unde ducimus repellendus
+                            odio quisquam molestias necessitatibus voluptates.</p>
+                    </div>
                 </div>
 
             </div>
@@ -91,6 +118,67 @@
             <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next"><span
                     class="carousel-control-next-icon"></span></button>
         </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row">
+
+            <div class="col-3 card mb-4">
+                <img src="https://picsum.photos/300" alt="" class="casrd-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Títilo do Cartão</h5>
+                    <h6 class="card-title">Subtítilo do Cartão</h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis velit minima.
+                        Minus quia laborum consequatur, eaque reprehenderit nihil culpa id distinctio corrupti, esse
+                        laboriosam, repudiandae assumenda rem? Totam, ipsam?
+                    </p>
+                </div>
+                <div class="col d flex p-2">
+                    <a href="#" class="btn btn-success w-50">Comprar</a>
+                    <a href="#" class="btn btn-success w-50 ms-2">Favoritos
+                        <i class="bi-heart ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="col-3 card mb-4">
+                <img src="https://picsum.photos/300" alt="" class="casrd-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Títilo do Cartão</h5>
+                    <h6 class="card-title">Subtítilo do Cartão</h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis velit minima.
+                        Minus quia laborum consequatur, eaque reprehenderit nihil culpa id distinctio corrupti, esse
+                        laboriosam, repudiandae assumenda rem? Totam, ipsam?
+                    </p>
+                </div>
+                <div class="col d flex p-2">
+                    <a href="#" class="btn btn-success w-50">Comprar</a>
+                    <a href="#" class="btn btn-success w-50 ms-2">Favoritos
+                        <i class="bi-heart ms-2"></i></a>
+
+                </div>
+            </div>
+            <div class="col-3 card mb-4">
+                <img src="https://picsum.photos/300" alt="" class="casrd-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Títilo do Cartão</h5>
+                    <h6 class="card-title">Subtítilo do Cartão</h6>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis velit minima.
+                        Minus quia laborum consequatur, eaque reprehenderit nihil culpa id distinctio corrupti, esse
+                        laboriosam, repudiandae assumenda rem? Totam, ipsam?
+                    </p>
+                </div>
+                <div class="col d flex p-2">
+                    <a href="#" class="btn btn-success w-50">Comprar</a>
+                    <a href="#" class="btn btn-success w-50 ms-2">Favoritos
+                        <i class="bi-heart ms-2"></i></a>
+
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="container">
